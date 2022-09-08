@@ -1,4 +1,4 @@
 <?php
 
 
-echo getenv('DB_DATABASE');
+echo getenv('MYSQLCONNSTR_DB_DATABASE');
