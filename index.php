@@ -1,4 +1,4 @@
 <?php
 
 
-echo env('DB_DATABASE','default');
+echo getenv('DB_DATABASE');
