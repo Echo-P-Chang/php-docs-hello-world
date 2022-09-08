@@ -1,3 +1,4 @@
 <?php
 
-echo "Hello World!";
+
+echo env('DB_DATABASE','default');
