@@ -55,6 +55,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'php-shechang-2'
-          slot-name: 'stg'
+          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4C4974FC5703451EACCF419C9F306366 }}
           package: .
